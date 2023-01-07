@@ -1,0 +1,21 @@
+:root {
+  /* Colors Primary */
+  --pale-blue: hsl(225, 100%, 96%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --med-bright-blue: hsl(245, 75%, 64%);
+
+  /* Colors Neutral */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  /* Typography */
+
+  /* Fonts */
+  --red-hat-display: 'Red Hat Display';
+
+  /* Font Weights */
+  --medium-weight: 500;
+  --bold-weight: 700;
+  --black-weight: 900;
+}

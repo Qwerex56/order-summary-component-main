@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+
+  <title>Order summary card< | HTML CSS</title>
+
+  <style>
+    footer {
+      display: flex;
+      justify-content: center;
+    }
+
+    .attribution {
+      padding: 0.25em;
+      max-width: 320px;
+      background-color: hsl(0, 0%, 95%);
+      border: 0.125em solid hsl(0, 0%, 85%);
+      border-radius: 0.5em;
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 1em; 
+      text-align: center;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="summary-component">
+    <div class="summary-component__content">
+      <img src="./src/images/illustration-hero.svg" class="summary-component__background-image">
+      <h1 class="summary-component__heading">
+        Order Summary
+      </h1>
+      <p class="summary-component__description">
+        You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!
+      </p>
+      <div class="summary-component__plan">
+        <img src="./src/images/icon-music.svg" class="summary-component__icon-music">
+        <p class="summary-component__type">
+          Annual Plan <br>
+          <span class="summary-component__pricing">
+            $59.99/year
+          </span> 
+        </p>
+        <a href="#" class="summary-component__change-plan">
+          Change
+        </a>
+      </div>
+      <button class="summary-component__continue">
+        Proceed to Payment
+      </button>
+      <button class="summary-component__cancel">
+        Cancel Order
+      </button>
+    </div>
+  </main>
+  
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</footer>
+</body>
+</html>
