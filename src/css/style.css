@@ -45,7 +45,7 @@ main.summary-component {
   font-family: var(--red-hat-display);
   text-align: center;
   
-  z-index: -1 ;
+  z-index: 1 ;
 }
 
 .summary-component__background-image {
@@ -119,9 +119,10 @@ main.summary-component {
   margin: auto 1rem auto auto;
 
   font-weight: var(--bold-weight);
+  color: var(--bright-blue);
 }
 
-.summary-component__background-image:hover {
+.summary-component__change-plan:hover {
   color: var(--med-bright-blue);
 }
 
@@ -162,7 +163,7 @@ main.summary-component {
 }
 
 .summary-component__cancel:hover {
-  color: var(--desaturated-blue);
+  color: var(--dark-blue);
 }
 
 @media screen and (min-width: 1440px) {
