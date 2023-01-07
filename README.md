@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./screenshot-desktop.jepg)
-![Mobile](./screenshot-moblie.jpeg)
+![Desktop](./screenshot-desktop.jpeg)
+![Mobile](./screenshot-mobile.jpeg)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-QIT1SbAMnm)
+- Live Site URL: [Github Pages](https://qwerex56.github.io/order-summary-component-main/)
 
 ## My process
 
